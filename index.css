@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 20px;
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+}
+
+.NavBar {
+  position: fixed;
+  display: inline;
+  justify-content: space-between;
+}
+
+.NavBar-fixed {
+  position: fixed;
+  display: inline;
+  justify-content: space-between;
+}
+
+.NavBar-links {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  flex-direction: row;
+}
+
+.Logo {
+  height: 30px;
+  width: 30 px;
+}
+
+.subBtn {
+  height: 20px;
+  width: 40px;
+  box-sizing: border-box dotted white solid;
+  border-radius: 25%;
+}
+
+.center {
+  color: white;
+  font-size: 800px;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#p {
+  font-size: 20px;
+}
