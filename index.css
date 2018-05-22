@@ -6,48 +6,73 @@ body {
   font-family: sans-serif;
 }
 
-.NavBar {
-  position: fixed;
-  display: inline;
-  justify-content: space-between;
-}
-
-.NavBar-fixed {
-  position: fixed;
-  display: inline;
-  justify-content: space-between;
-}
-
-.NavBar-links {
+.nav-container {
   display: flex;
-  justify-content: center;
-  padding: 5px;
   flex-direction: row;
-}
-
-.Logo {
-  height: 30px;
-  width: 30 px;
-}
-
-.subBtn {
-  height: 20px;
-  width: 40px;
-  box-sizing: border-box dotted white solid;
-  border-radius: 25%;
-}
-
-.center {
-  color: white;
-  font-size: 800px;
+  width: 100vw;
+  height: 100px;
+  border-bottom: 1px solid black;
 }
 
 .links-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-items: baseline;
+  align-content: baseline;
 }
 
-#p {
-  font-size: 20px;
+.links-container a {
+  padding: 5px;
+}
+
+.logo {
+  float: left;
+}
+
+.sub-btn {
+  float: right;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+  background: blue;
+  color: white;
+}
+
+.sub-btn:hover {
+  background-color: white;
+  color: blue;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.center h3 {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slogan {
+  font-size: 50px;
+}
+
+.explore-btn {
+  border-radius: 25px;
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.explore-btn:hover {
+  background-color: blue;
+  color: white;
 }
