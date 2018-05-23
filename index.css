@@ -25,6 +25,7 @@ body {
 
 .links-container a {
   padding: 5px;
+  color: white;
 }
 
 .logo {
@@ -75,4 +76,18 @@ body {
 .explore-btn:hover {
   background-color: blue;
   color: white;
+}
+
+.footer {
+  height: 100px;
+}
+#social-btn {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+#inverted-logo {
+  padding: 100px;
+  float: left;
 }
